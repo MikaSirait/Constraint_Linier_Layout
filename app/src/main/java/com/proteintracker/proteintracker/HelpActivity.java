@@ -10,10 +10,9 @@ public class HelpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
-    }
-}
 
-super.onCreate(savedInstanceState);
+
+        super.onCreate(savedInstanceState);
         TextView myTextView = new TextView(this);
         myTextView.setText("Some Help Text");
         setContentView(myTextView);
@@ -22,3 +21,9 @@ super.onCreate(savedInstanceState);
         String helpText = b.getString("helpString");
         myTextView.setText(helpText);
         setContentView(myTextView);
+
+    }
+}
+
+
+
